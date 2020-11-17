@@ -1,10 +1,8 @@
 # OOP-EX1
 
-In this project we built a directed graph which is also a weighted graph. Also in this project you will find some algorithms that can be done on a graph that is both directed and weighted.
+In this project we built a undirected weighted graph. Also in this project you will find some algorithms that can be done on a graph that is both udirected and weighted.
 
 For more information:
-
-https://en.wikipedia.org/wiki/Directed_graph
 
 https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)
 
