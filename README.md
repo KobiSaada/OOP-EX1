@@ -62,6 +62,7 @@ src -> n1 ->n2 ->...-> dest
 Copy:The algorithm compute a deep copy of this graph.
 
 
+# Example for Shortest path:
             B    1     D   6
        5  .-+---------.'-------F
        .-'  |       .' |
@@ -71,8 +72,11 @@ Copy:The algorithm compute a deep copy of this graph.
            `.'---------+
             C     8    E
 shortest path between A and F: [A, C, B, D, F]
+
 shortest path between C and F: [C, B, D, F]
+
 shortest path between D and A: [D, B, C, A]
+
 Reference:
 
 https://www.youtube.com/watch?v=9wV1VxlfBlI
