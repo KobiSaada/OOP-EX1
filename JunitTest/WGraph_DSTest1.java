@@ -1,4 +1,4 @@
-package ex1.JunitTest;
+package ex1.tests;
 
 import ex1.*;
 import org.junit.jupiter.api.Test;
