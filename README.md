@@ -10,6 +10,7 @@ Here are the departments that build our graph:
 
 # NodeInfo class:
 This class represents the vertices, when each vertex has the following properties:
+in the private class NodeInfo i've implement the basic method and constructors for a node in the graph such as : get/set Key,get/set info, etc.
 
 Key: An integer representing the "ID" of the vertex. The key must be unique, meaning there must be no more vertex in the graph with the same key. Note that once the vertex is created, the key field cannot be reset.
 
@@ -45,7 +46,6 @@ getEdge - if there edge, then return the shortest path based on the cheaper weig
 
 equals - overriding method to override the basic equals function.
 
-in the private class NodeData i've implement the basic method and constructors for a node in the graph such as : get/set Key,get/set info, etc.
 
 
 # WGraph_Algo class:
