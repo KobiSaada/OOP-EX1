@@ -116,6 +116,8 @@ public class WGraph_Algo implements weighted_graph_algorithms{
      */
     @Override
     public double shortestPathDist(int src, int dest) {
+        if (src==dest)
+            return 0.0;
 
         return shortestPath(src, dest) != null ? this.WgA.getNode(dest).getTag() : -1;
     }
