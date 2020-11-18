@@ -72,22 +72,47 @@ class WGraph_DSTest1 {
 
     @Test
     void removeNode() {
-
+        Gr.addNode(2);
+        Gr.addNode(6);
+        Gr.removeNode(2);
+        assertEquals(1,Gr.nodeSize());
     }
 
     @Test
     void removeEdge() {
+        Gr.addNode(2);
+        Gr.addNode(6);
+        Gr.connect(2,6,7);
+        Gr.removeEdge(2,6);
+        assertEquals(-1,Gr.getEdge(2,6));
     }
 
     @Test
     void nodeSize() {
+        Gr.addNode(2);
+        Gr.addNode(6);
+        assertEquals(2,Gr.nodeSize());
+
     }
 
     @Test
     void edgeSize() {
+        Gr.addNode(3);
+        Gr.addNode(2);
+        Gr.addNode(6);
+        Gr.connect(2,6,7);
+        Gr.connect(2,3,1);
+        assertEquals(2,Gr.edgeSize());
+
     }
 
     @Test
     void getMC() {
+        Gr.addNode(3);
+        Gr.addNode(2);
+        Gr.addNode(6);
+        Gr.connect(2,6,7);
+        Gr.connect(2,3,1);
+        assertEquals(5,Gr.getMC());
     }
 }
