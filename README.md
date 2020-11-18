@@ -26,15 +26,25 @@ Info: A string that can indicate more information about the vertex. Usually in o
 The methods of this class  :
 
 getV - return a collection that contain all the vertecis in the graph.
+
 getV(int node_id) - return collection of Neigbors with that node_id.
+
 removeNode - remove node from the graph,and cancel all his edges.
+
 removeEdge - remove edge with two nodes.
+
 addNode - add node to the graph.
+
 getNode - return the node based on given key.
+
 connect - initialize an edge with 2 given nodes, and set their weight.
+
 hasEdge - boolean method that check if there is edge between two nodes.
+
 getEdge - if there edge, then return the shortest path based on the cheaper weight from src node to destination node.
+
 equals - overriding method to override the basic equals function.
+
 in the private class NodeData i've implement the basic method and constructors for a node in the graph such as : get/set Key,get/set info, etc.
 
 
