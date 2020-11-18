@@ -138,7 +138,8 @@ public class WGraph_Algo implements weighted_graph_algorithms{
             return null;
         HashMap<node_info, node_info> parents1 = this.Dijkstra(this.WgA.getNode(src));
         List<node_info> shortestPath = new ArrayList<>();
-
+           if (src==dest)
+            return shortestPath;
         node_info i = this.WgA.getNode(dest);
 
         while (i != null) {
