@@ -1,4 +1,5 @@
 # OOP-EX1
+# Author : kobi saada
 
 In this project we built a undirected weighted graph. Also in this project you will find some algorithms that can be done on a graph that is both udirected and weighted.
 
